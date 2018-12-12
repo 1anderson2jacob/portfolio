@@ -1,0 +1,183 @@
+h2.alt {
+  color: #888;
+}
+
+h2.alt strong {
+  color: #666;
+}
+
+br.clear {
+  clear: both;
+}
+
+.image {
+  display: inline-block;
+  border: 0;
+}
+
+.image img {
+  display: block;
+  width: 100%;
+}
+
+.image.avatar48 {
+  width: 48px;
+  height: 48px;
+  background: #f00;
+}
+
+.image.avatar48 img {
+  width: 48px;
+  height: 48px;
+}
+
+.image.fit {
+  display: block;
+  width: 100%;
+}
+
+.image.featured {
+  display: block;
+  width: 40%;
+  margin: 0 0 2em 12em;
+  /* margin: 0 0 2em 0; */
+}
+
+.image.left {
+  float: left;
+  margin: 0 2em 2em 0;
+}
+
+.image.centered {
+  display: block;
+  margin: 0 0 2em 0;
+}
+
+.image.centered img {
+  margin: 0 auto;
+  width: auto;
+}
+
+ul.icons {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.icons li {
+  display: inline-block;
+  padding-left: 0;
+}
+
+ul.icons a {
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  text-align: center;
+  border: 0;
+}
+
+.item {
+  box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
+  margin-bottom: 40px;
+}
+
+.item header {
+  background: #fff;
+  margin: 0;
+  padding: 1em 0 1em 0;
+  font-size: 0.8em;
+}
+
+.item header h3 {
+  font-size: 1em;
+}
+
+.icon {
+  text-decoration: none;
+}
+
+.icon:before {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 1.25em;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon > .label {
+  display: none;
+}
+
+#footer .copyright {
+  cursor: default;
+  margin: 0;
+}
+
+#footer .copyright li {
+  display: inline-block;
+  line-height: 1em;
+  border-left: solid 1px rgba(128, 128, 128, 0.35);
+  padding: 0 0 0 0.5em;
+  margin: 0 0 0 0.5em;
+}
+
+#footer .copyright li:first-child {
+  border-left: 0;
+  padding-left: 0;
+  margin-left: 0;
+}
+#main > section.dark {
+  color: #ddd;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+#main > section.dark h2,
+#main > section.dark h3,
+#main > section.dark h4,
+#main > section.dark h5,
+#main > section.dark h6 {
+  color: inherit;
+}
+
+#main > section.dark strong {
+  color: #fff;
+  border-color: inherit;
+}
+
+#main > section.dark a {
+  color: #fff;
+  border-color: inherit;
+}
+
+#main > section.dark a:hover {
+  border-bottom-color: rgba(255, 255, 255, 0);
+}
+
+#main > section.cover {
+  padding: 10em 0;
+  background-size: cover;
+  background-position: center center;
+}
+
+#main > section.one {
+  background-color: #81918e;
+  background-image: url("../../images/motherboard.jpg");
+}
+
+#main > section.two {
+  background-color: #f5fafa;
+}
+
+#main > section.three {
+  background-color: #ecf1f1;
+}
+
+#main > section.four {
+  background-color: #e8edec;
+}
